@@ -1,0 +1,121 @@
+/* ============================= */
+/* DRAWING PAGE – RESPONSIVE     */
+/* ============================= */
+
+/* wrapper — only this page */
+.drawing-page {
+  width: 100%;
+  min-height: 100vh;   /* allow grow */
+  font-family: 'Preahvihear', sans-serif;
+  background: #fff5e1;
+  padding-top: 25px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* ============================= */
+/* CONTAINER                    */
+/* ============================= */
+
+.drawing-container {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  min-height: 100%;
+}
+
+
+/* ============================= */
+/* PANELS                       */
+/* ============================= */
+
+.drawing-area,
+.ai-area {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.drawing-area {
+  background-color: #fdebd0;
+  border-right: 2px dashed #ccc;
+}
+
+.ai-area {
+  background-color: #e8f8f5;
+}
+
+
+/* ============================= */
+/* CANVAS                       */
+/* ============================= */
+
+canvas {
+  width: 100%;          /* ⭐ responsive */
+  max-width: 550px;     /* desktop max */
+  height: auto;
+  aspect-ratio: 4 / 3;  /* keep shape */
+  border: 2px solid #555;
+  background-color: white;
+  cursor: crosshair;
+  margin: 10px auto;
+}
+
+
+/* ============================= */
+/* HEADER + BUTTONS             */
+/* ============================= */
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.back-btn {
+  background: #ffb703;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  transform: scale(1.05);
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 8px 14px;
+}
+
+
+/* ============================= */
+/* 📱 MOBILE RESPONSIVE RULES   */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+  .drawing-container {
+    flex-direction: column;  /* ⭐ stack vertically */
+  }
+
+  .drawing-area {
+    border-right: none;
+    border-bottom: 2px dashed #ccc;
+  }
+
+  canvas {
+    max-width: 95%;
+  }
+}

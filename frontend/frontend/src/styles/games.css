@@ -1,0 +1,118 @@
+.body2 {
+                margin: 0;
+                font-family: 'Comic Sans MS', cursive;
+                background: linear-gradient(to bottom, #FFF3E0, #fcb69f); /* smooth warm gradient */
+                 min-height: 100vh; 
+                color: #fff; /* add playful bg if you have */
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                color: #333;
+              }
+               .back-button {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background-color: #ff6b6b;
+                color: white;
+                padding: 10px 16px;
+                border-radius: 12px;
+                text-decoration: none;
+                font-weight: bold;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+                transition: background 0.3s;
+                z-index: 1000;
+                font-family: 'Comic Sans MS', cursive, sans-serif;
+              }
+              
+              .back-button:hover {
+                background-color: #e64545;
+              }
+              
+              .games-container {
+                padding: 20px;
+                max-width: 1000px;
+                margin: auto;
+              }
+              
+              .games-title {
+                text-align: center;
+                font-size: 2.5rem;
+                color: #ff6b6b;
+              }
+              
+              .game-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+                gap: 20px;
+                margin-top: 30px;
+              }
+              
+              .game-card {
+                background: #fff;
+                padding: 20px;
+                border-radius: 20px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                text-align: center;
+                transition: transform 0.2s ease;
+              }
+              
+              .game-card:hover {
+                transform: scale(1.05);
+              }
+              
+              .game-card h2 {
+                margin-bottom: 10px;
+                font-size: 1.2rem;
+              }
+              
+              .game-card p {
+                font-size: 0.95rem;
+                margin-bottom: 15px;
+              }
+              
+              .tag {
+                display: inline-block;
+                padding: 5px 10px;
+                border-radius: 12px;
+                font-size: 0.8rem;
+                color: white;
+                margin-bottom: 10px;
+              }
+              
+              .easy { background-color: #5cc45c; }
+              .medium { background-color: #f0a500; }
+              .hard { background-color: #e63946; }
+              
+              button {
+                background-color: #4dabf7;
+                border: none;
+                padding: 10px 15px;
+                color: white;
+                font-weight: bold;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background 0.3s;
+              }
+              
+              button:hover {
+                background-color: #339af0;
+              }
+              
+              .personal-title {
+                margin-top: 50px;
+                text-align: center;
+                font-size: 1.8rem;
+                color: #7d5fff;
+              }
+              
+              .personalized-games {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+                justify-content: center;
+                margin-top: 20px;
+              }
+              
+             
+              

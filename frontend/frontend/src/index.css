@@ -1,0 +1,36 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Preahvihear', sans-serif;
+}
+
+/* images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* buttons */
+button {
+  cursor: pointer;
+}
+
+/* utility container */
+.page-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 60px; /* space for timer bar */
+}

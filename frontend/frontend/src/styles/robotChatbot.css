@@ -1,0 +1,56 @@
+.robot-bot {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  text-align: center;
+  z-index: 1000;
+}
+
+#robotAvatar {
+  height: 250px;
+  cursor: pointer;
+}
+
+.chat-bubble {
+  background: #fff3cd;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: black;
+}
+
+.chat-box {
+  margin-top: 10px;
+  width: 260px;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+}
+
+.chat-area {
+  max-height: 150px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.user {
+  background: #d1e7ff;
+  text-align: right;
+  padding: 6px;
+  border-radius: 10px;
+  margin: 4px 0;
+}
+
+.bot {
+  background: #f0f0f0;
+  text-align: left;
+  padding: 6px;
+  border-radius: 10px;
+  margin: 4px 0;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+}

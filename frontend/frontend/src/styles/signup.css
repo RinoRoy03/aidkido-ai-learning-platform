@@ -1,0 +1,229 @@
+.hero {
+  margin: 0;
+  font-family: 'Preahvihear', sans-serif;
+  background: radial-gradient(#621d1d, #1e0101);
+  color: #fff;
+  min-height: 100vh;
+
+  text-align: center;
+  padding-top: 2rem;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  font-size: 3.5rem;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  color: #fce3aa;
+  margin-bottom: 2rem;
+  position: relative;
+  
+}
+
+.icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+/* Gift Icon in Tagline */
+.gift {
+  width: 100px;
+  height: 80px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+/* Decorative Icons */
+.fire {
+  bottom: 30px;
+  right: 250px;
+  width: 200px;
+  height: 100px;
+}
+
+.spark {
+  bottom: 30px;
+  left: 250px;
+  width: 200px;
+  height: 100px;
+}
+
+/* Cloud Decorations */
+.cloud {
+  position: absolute;
+  
+  width: 120px;
+}
+
+.cloud1 {
+  top: 10%;
+  left: 10%;
+}
+
+.cloud2 {
+  top: 5%;
+  right: 15%;
+  opacity: 0.3;
+}
+
+.cloud3 {
+  top: 60%;
+  left: 5%;
+  width: 100px;
+  opacity: 0.3;
+}
+
+.cloud4 {
+  top: 70%;
+  right: 10%;
+  width: 130px;
+  opacity: 0.3;
+}
+/* Phone Layout */
+.phones {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 6rem;
+  position: relative;
+  z-index: 2;
+  height: 300px;
+}
+
+.phone {
+  width: 150px;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  transition: transform 0.3s;
+}
+
+.phone-left {
+  transform: rotate(-10deg);
+  width: 160px;
+}
+
+.phone-center {
+  transform: scale(1.1);
+  z-index: 3;
+}
+
+.phone-right {
+  transform: rotate(10deg);
+  width: 160px;
+}
+
+.signup-box {
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background-color: #f4c5c5;
+  border-radius: 25px;
+  padding: 2rem;
+  z-index: 10;
+  font-family: 'Preahvihear', sans-serif;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.top-curve {
+  position: absolute;
+  top: -120px;
+  left: -80px;
+  width: 250px;
+  height: 250px;
+  background-color: #7d4c76;
+  border-bottom-right-radius: 150px;
+  z-index: 0;
+}
+
+.bottom-curve {
+  position: absolute;
+  bottom: -60px;
+  right: -60px;
+  width: 180px;
+  height: 180px;
+  background-color: #f5f5f5;
+  border-top-left-radius: 90px;
+  z-index: 0;
+}
+
+.signup-title {
+  position: relative;
+  font-size: 2rem;
+  color: white;
+  z-index: 2;
+  margin-bottom: 1rem;
+}
+
+.signup-form {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-input {
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 15px;
+  background-color: #ce8989;
+  font-size: 1rem;
+  color: white;
+}
+
+.signup-input::placeholder {
+  color: #f5dddd;
+}
+
+.signup-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+.signup-text {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.signup-btn {
+  background-color: #7d4c76;
+  color: white;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 50%;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+
+.signin-link {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  border-bottom: 3px solid #e8d626;
+  z-index: 2;
+}
+

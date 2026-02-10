@@ -60,5 +60,5 @@ This project uses:
 
 ---
 
-## 📂 Project Structure
-
+## 👨‍💻 Author
+Rino Roy
